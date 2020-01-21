@@ -1,0 +1,213 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Test registration with multiple set of data",
+        "description": "",
+        "id": "registration-process;test-registration-with-multiple-set-of-data;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 15092670700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to registration process",
+            "match": {
+              "location": "login.user_navigate_to_registration_process()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 308312300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter username as \"hari\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hari\"",
+                  "offset": 23
+                }
+              ],
+              "location": "login.user_enter_username_as(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 289541100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter password as \"thahari\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"thahari\"",
+                  "offset": 23
+                }
+              ],
+              "location": "login.user_enter_password_as(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 231281100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter confirm password as \"thahari\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"thahari\"",
+                  "offset": 31
+                }
+              ],
+              "location": "login.user_enter_confirm_password_as(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1733574500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "login.user_clicks_submit_button()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 15964800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify registration",
+            "match": {
+              "location": "login.verify_registration()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Test registration with multiple set of data",
+        "description": "",
+        "id": "registration-process;test-registration-with-multiple-set-of-data;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16145451000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user navigate to registration process",
+            "match": {
+              "location": "login.user_navigate_to_registration_process()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 266745600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter username as \"that\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"that\"",
+                  "offset": 23
+                }
+              ],
+              "location": "login.user_enter_username_as(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 277045200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter password as \"istist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"istist\"",
+                  "offset": 23
+                }
+              ],
+              "location": "login.user_enter_password_as(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 206274300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enter confirm password as \"istist\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"istist\"",
+                  "offset": 31
+                }
+              ],
+              "location": "login.user_enter_confirm_password_as(String)"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1807087000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks submit button",
+            "match": {
+              "location": "login.user_clicks_submit_button()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 21716100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify registration",
+            "match": {
+              "location": "login.verify_registration()"
+            },
+            "keyword": "* "
+          }
+        ]
+      }
+    ],
+    "name": "Registration Process",
+    "description": "",
+    "id": "registration-process",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/registration.feature",
+    "tags": []
+  }
+]
